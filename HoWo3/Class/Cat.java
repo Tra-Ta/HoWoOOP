@@ -1,4 +1,4 @@
-package HoWo2.Class;
+package HoWo3.Class;
 
 public abstract class Cat implements Animal {
     private String name;
@@ -9,7 +9,7 @@ public abstract class Cat implements Animal {
         this.hunger = true;
     }
 
-    public void invite() {
+    protected void invite() {
         if (hunger){
             say();
         }
